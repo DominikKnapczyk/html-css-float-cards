@@ -56,17 +56,13 @@
 }
 
 .image {
-  float: left;
-  display: inline-block;
   vertical-align: middle;
-
 }
-
 
 .description {
   display: inline-block;
+  float: right;
   vertical-align: middle;
-
 }
 
 /* GRID */
@@ -80,6 +76,5 @@
   padding: 1.5rem;
   float: left;
   background-color: aqua;
-
 }
 
