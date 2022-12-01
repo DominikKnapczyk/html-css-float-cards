@@ -10,13 +10,12 @@
 
 .container {
   margin: auto;
-  width: 80%;
+  width: 70%;
   max-width: 2000px;
+  min-width: 1200px;
   text-align: center;
 
   font-family: 'Fredoka', sans-serif;
-
-  background-color: lightgray;
 }
 
 .container::after {
@@ -25,8 +24,7 @@
   display: table;
 }
 
-
-/* GENERICS */
+/* GENERICS*/
 
 .title {
   margin-top: 50px;
@@ -43,38 +41,58 @@
   font-size: 22px;
 }
 
-.name {
-  display: block;
-}
+/* GENERICS THUMBNAIL */
 
-.role {
-  display: block;
-}
-
-.email {
-  display: block;
+.thumbnail {
+  background-color: #0F0E17;
+  text-align: left;
+  min-width: 195px;
+  
 }
 
 .image {
   vertical-align: middle;
+  width: 150px;
 }
 
 .description {
   display: inline-block;
-  float: right;
   vertical-align: middle;
+  margin-left: 10%;
+}
+
+.name {
+  display: block;
+  margin-bottom: 6px;
+
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.role {
+  display: block;
+  margin-bottom: 6px;
+
+  font-size: 18px;
+  color: white;
+}
+
+.email {
+  display: block;
+
+  color: #2AB2EC;
 }
 
 /* GRID */
 
 .row {
-  margin: 0 -1.5rem;
+  margin: 0 -10px;
 }
 
 .colum {
   width: calc(100%/3);
-  padding: 1.5rem;
+  padding: 10px;
   float: left;
-  background-color: aqua;
 }
 
