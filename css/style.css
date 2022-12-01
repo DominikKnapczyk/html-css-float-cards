@@ -1,0 +1,79 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* UTILS */
+
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 2000px;
+  text-align: center;
+
+  font-family: 'Fredoka', sans-serif;
+
+  background-color: lightgray;
+}
+
+.container::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+
+/* GENERICS */
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  color: #cc3366;
+  font-size: 50px;
+}
+
+.text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  font-size: 22px;
+}
+
+.name {
+  display: block;
+}
+
+.role {
+  display: block;
+}
+
+.email {
+  display: block;
+}
+
+.image {
+  vertical-align: middle;
+}
+
+.description {
+  float: right;
+  vertical-align: middle;
+}
+
+/* GRID */
+
+.row {
+  margin: 0 -1.5rem;
+}
+
+.colum {
+  width: calc(100%/3);
+  padding: 1.5rem;
+  float: left;
+  vertical-align: middle;
+}
+
